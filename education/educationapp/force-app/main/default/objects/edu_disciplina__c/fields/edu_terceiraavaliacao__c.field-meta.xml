@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>edu_terceiraavaliacao__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Nota obtida na terceira avaliação, em formato de número, separado por ponto. (Exemplo: 9.5)
+Caso a nota seja disponibilizada em forma de porcentagem, verificar as regras de avaliação da nota (Exemplo: nota obtida equivale a 100%, porem esse valor é multiplicado por 0,2, logo a nota final será 2.0).
+Caso a instituição não possua uma terceira avaliação, preencher com zero.</inlineHelpText>
+    <label>Terceira Avaliação</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>edu_alunodisc__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Aluno matriculado nesta disciplina.</inlineHelpText>
+    <label>Aluno</label>
+    <referenceTo>edu_aluno__c</referenceTo>
+    <relationshipLabel>Alunos Matriculados</relationshipLabel>
+    <relationshipName>edu_alunodisc</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

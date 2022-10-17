@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>edu_instituicaodeensino__c.edu_instcurso__r.edu_discurso__r$edu_alunodisc__c</field>
+    </columns>
+    <columns>
+        <field>edu_instituicaodeensino__c$Name</field>
+    </columns>
+    <description>Relação de Cursos por Alunos</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>edu_instituicaodeensino__c.edu_instcurso__r$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Curso por Aluno</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>edu_relatoriogeral__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>edu_instituicaodeensino__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

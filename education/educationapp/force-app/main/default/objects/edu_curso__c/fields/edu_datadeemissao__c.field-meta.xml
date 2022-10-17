@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>edu_datadeemissao__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Data em que o certificado foi emitido, ou a data de conclusão que consta no certificado.</inlineHelpText>
+    <label>Data de Emissão do Certificado</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

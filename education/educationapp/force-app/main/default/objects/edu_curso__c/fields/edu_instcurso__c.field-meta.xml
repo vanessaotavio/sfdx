@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>edu_instcurso__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Instituição de ensino associada ao curso.</inlineHelpText>
+    <label>Instituição de Ensino</label>
+    <referenceTo>edu_instituicaodeensino__c</referenceTo>
+    <relationshipLabel>Cursos</relationshipLabel>
+    <relationshipName>edu_instcurso</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

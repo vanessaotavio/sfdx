@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>edu_status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( edu_primeiraavaliacao__c =0,&quot;Pendente&quot;,(IF( edu_notafinal__c &gt;=  edu_mediaaprovacao__c, &quot;Aprovado&quot;,&quot;Reprovado&quot;)))</formula>
+    <inlineHelpText>Caso a nota final seja igual ou superior a nota média para aprovação na disciplina, será considerado como Aprovado, caso contrário, terá o status Reprovado.</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

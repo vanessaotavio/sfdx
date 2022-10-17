@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>edu_notafinal__c</fullName>
+    <externalId>false</externalId>
+    <formula>edu_primeiraavaliacao__c +  edu_segundaavaliacao__c +  edu_terceiraavaliacao__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Soma de todas as avaliações realizadas.</inlineHelpText>
+    <label>Nota Final</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
